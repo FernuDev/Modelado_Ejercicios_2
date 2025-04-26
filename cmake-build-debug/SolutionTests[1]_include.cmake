@@ -1,5 +1,0 @@
-if(EXISTS "/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/SolutionTests[1]_tests.cmake")
-  include("/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/SolutionTests[1]_tests.cmake")
-else()
-  add_test(SolutionTests_NOT_BUILT SolutionTests_NOT_BUILT)
-endif()

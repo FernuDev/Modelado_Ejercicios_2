@@ -1,3 +1,0 @@
-/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/build/CMakeFiles/SolutionTests.dir
-/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/build/CMakeFiles/edit_cache.dir
-/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/build/CMakeFiles/rebuild_cache.dir

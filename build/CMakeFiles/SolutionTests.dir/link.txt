@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/SolutionTests.dir/link.d CMakeFiles/SolutionTests.dir/test/UnitTestingSolution.cpp.o CMakeFiles/SolutionTests.dir/src/Solution.cpp.o CMakeFiles/SolutionTests.dir/src/LinkedList.cpp.o -o SolutionTests  -lpthread /usr/lib64/libgtest_main.so.1.15.2 /usr/lib64/libgtest.so.1.15.2

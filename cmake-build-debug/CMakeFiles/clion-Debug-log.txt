@@ -1,8 +1,0 @@
-/home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2 -B /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug
--- Archivos fuente encontrados: /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include/LinkedList.h;/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include/Solution.h;/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/main.cpp;/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/LinkedList.cpp;/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/Solution.cpp
--- Archivos de prueba encontrados: /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/test/UnitTestingSolution.cpp
--- Ejecutable principal configurado
--- Pruebas unitarias configuradas
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug
