@@ -2,6 +2,30 @@
 	"entries" : 
 	[
 		{
+			"name" : "BUILD_MAIN_APP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build the main application"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "BUILD_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build the tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -594,6 +618,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -843,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Ejercicios_2"
+			"value" : "SolutionProject"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1167,6 +1203,66 @@
 		},
 		{
 			"name" : "Ejercicios_2_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GTest",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding GTest"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib64/cmake/GTest/GTestConfig.cmake][c ][v1.15.2()]"
+		},
+		{
+			"name" : "GTest_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for GTest."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib64/cmake/GTest"
+		},
+		{
+			"name" : "SolutionProject_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug"
+		},
+		{
+			"name" : "SolutionProject_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SolutionProject_SOURCE_DIR",
 			"properties" : 
 			[
 				{

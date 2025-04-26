@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Ejercicios_2
+# Project: SolutionProject
 # Configurations: Debug
 # =============================================================================
 
@@ -49,37 +49,26 @@ cmake_ninja_workdir = /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-
 
 build cmake_object_order_depends_target_Ejercicios_2: phony || .
 
-build CMakeFiles/Ejercicios_2.dir/main.cpp.o.ddi: CXX_SCAN__Ejercicios_2_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/main.cpp || cmake_object_order_depends_target_Ejercicios_2
-  DEP_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o.ddi.i
-
-build CMakeFiles/Ejercicios_2.dir/main.cpp.o: CXX_COMPILER__Ejercicios_2_scanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/main.cpp | CMakeFiles/Ejercicios_2.dir/main.cpp.o.modmap || cmake_object_order_depends_target_Ejercicios_2 CMakeFiles/Ejercicios_2.dir/CXX.dd
+build CMakeFiles/Ejercicios_2.dir/main.cpp.o: CXX_COMPILER__Ejercicios_2_unscanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/main.cpp || cmake_object_order_depends_target_Ejercicios_2
   DEP_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/Ejercicios_2.dir/main.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include
   OBJECT_DIR = CMakeFiles/Ejercicios_2.dir
   OBJECT_FILE_DIR = CMakeFiles/Ejercicios_2.dir
-  dyndep = CMakeFiles/Ejercicios_2.dir/CXX.dd
 
-build CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.ddi: CXX_SCAN__Ejercicios_2_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/Solution.cpp || cmake_object_order_depends_target_Ejercicios_2
-  DEP_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.ddi.i
-
-build CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o: CXX_COMPILER__Ejercicios_2_scanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/Solution.cpp | CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.modmap || cmake_object_order_depends_target_Ejercicios_2 CMakeFiles/Ejercicios_2.dir/CXX.dd
-  DEP_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+build CMakeFiles/Ejercicios_2.dir/src/LinkedList.cpp.o: CXX_COMPILER__Ejercicios_2_unscanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/LinkedList.cpp || cmake_object_order_depends_target_Ejercicios_2
+  DEP_FILE = CMakeFiles/Ejercicios_2.dir/src/LinkedList.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include
   OBJECT_DIR = CMakeFiles/Ejercicios_2.dir
   OBJECT_FILE_DIR = CMakeFiles/Ejercicios_2.dir/src
-  dyndep = CMakeFiles/Ejercicios_2.dir/CXX.dd
 
-build CMakeFiles/Ejercicios_2.dir/CXX.dd | /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/CMakeFiles/Ejercicios_2.dir/CXXModules.json CMakeFiles/Ejercicios_2.dir/main.cpp.o.modmap CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.modmap: CXX_DYNDEP__Ejercicios_2_Debug CMakeFiles/Ejercicios_2.dir/main.cpp.o.ddi CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.ddi | /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/CMakeFiles/Ejercicios_2.dir/CXXDependInfo.json
+build CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o: CXX_COMPILER__Ejercicios_2_unscanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/src/Solution.cpp || cmake_object_order_depends_target_Ejercicios_2
+  DEP_FILE = CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include
+  OBJECT_DIR = CMakeFiles/Ejercicios_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Ejercicios_2.dir/src
 
 
 # =============================================================================
@@ -89,13 +78,48 @@ build CMakeFiles/Ejercicios_2.dir/CXX.dd | /home/fernudev/Documents/UNAM/Modelad
 #############################################
 # Link the executable Ejercicios_2
 
-build Ejercicios_2: CXX_EXECUTABLE_LINKER__Ejercicios_2_Debug CMakeFiles/Ejercicios_2.dir/main.cpp.o CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o
+build Ejercicios_2: CXX_EXECUTABLE_LINKER__Ejercicios_2_Debug CMakeFiles/Ejercicios_2.dir/main.cpp.o CMakeFiles/Ejercicios_2.dir/src/LinkedList.cpp.o CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Ejercicios_2.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = Ejercicios_2
   TARGET_PDB = Ejercicios_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SolutionTests
+
+
+#############################################
+# Order-only phony target for SolutionTests
+
+build cmake_object_order_depends_target_SolutionTests: phony || .
+
+build CMakeFiles/SolutionTests.dir/test/UnitTestingSolution.cpp.o: CXX_COMPILER__SolutionTests_unscanned_Debug /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/test/UnitTestingSolution.cpp || cmake_object_order_depends_target_SolutionTests
+  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
+  DEP_FILE = CMakeFiles/SolutionTests.dir/test/UnitTestingSolution.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/include
+  OBJECT_DIR = CMakeFiles/SolutionTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/SolutionTests.dir/test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SolutionTests
+
+
+#############################################
+# Link the executable SolutionTests
+
+build SolutionTests SolutionTests[1]_tests.cmake | ${cmake_ninja_workdir}SolutionTests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__SolutionTests_Debug CMakeFiles/SolutionTests.dir/test/UnitTestingSolution.cpp.o | /usr/lib64/libgtest_main.so.1.15.2 /usr/lib64/libgtest.so.1.15.2
+  FLAGS = -g
+  LINK_LIBRARIES = -lpthread  /usr/lib64/libgtest_main.so.1.15.2  /usr/lib64/libgtest.so.1.15.2
+  OBJECT_DIR = CMakeFiles/SolutionTests.dir
+  POST_BUILD = cd /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug && /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -D TEST_TARGET=SolutionTests -D TEST_EXECUTABLE=/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/SolutionTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=SolutionTests_TESTS -D CTEST_FILE=/home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug/SolutionTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GoogleTestAddTests.cmake
+  PRE_LINK = :
+  RESTAT = 1
+  TARGET_FILE = SolutionTests
+  TARGET_PDB = SolutionTests.dbg
 
 
 #############################################
@@ -131,7 +155,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/cmake-build-debug
 
-build all: phony Ejercicios_2
+build all: phony Ejercicios_2 SolutionTests
 
 # =============================================================================
 # Built-in targets
@@ -140,14 +164,14 @@ build all: phony Ejercicios_2
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindGTest.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GoogleTest.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/CMakeLists.txt /usr/lib64/cmake/GTest/GTestConfig.cmake /usr/lib64/cmake/GTest/GTestConfigVersion.cmake /usr/lib64/cmake/GTest/GTestTargets-noconfig.cmake /usr/lib64/cmake/GTest/GTestTargets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindGTest.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GoogleTest.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/fernudev/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/fernudev/Documents/UNAM/Modelado/Ejercicios_2/CMakeLists.txt /usr/lib64/cmake/GTest/GTestConfig.cmake /usr/lib64/cmake/GTest/GTestConfigVersion.cmake /usr/lib64/cmake/GTest/GTestTargets-noconfig.cmake /usr/lib64/cmake/GTest/GTestTargets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -3,3 +3,7 @@ build CMakeFiles/Ejercicios_2.dir/main.cpp.o: dyndep
 
 build CMakeFiles/Ejercicios_2.dir/src/Solution.cpp.o: dyndep
 
+build CMakeFiles/Ejercicios_2.dir/src/LinkedList.cpp.o: dyndep
+
+build CMakeFiles/Ejercicios_2.dir/test/UnitTestingSolution.cpp.o: dyndep
+

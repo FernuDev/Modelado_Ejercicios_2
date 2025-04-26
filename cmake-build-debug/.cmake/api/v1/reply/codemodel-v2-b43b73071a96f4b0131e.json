@@ -9,13 +9,14 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.30"
+						"string" : "3.14"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -27,10 +28,11 @@
 					[
 						0
 					],
-					"name" : "Ejercicios_2",
+					"name" : "SolutionProject",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_2-Debug-d90ed8fb5f9dcff1255b.json",
+					"jsonFile" : "target-Ejercicios_2-Debug-2b2afd09696be8eb3638.json",
 					"name" : "Ejercicios_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SolutionTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SolutionTests-Debug-ae7b518fa7524f37da81.json",
+					"name" : "SolutionTests",
 					"projectIndex" : 0
 				}
 			]
